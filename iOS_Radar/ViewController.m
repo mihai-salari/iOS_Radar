@@ -44,8 +44,8 @@
         }
         [_scanRadarView showTargetView:self.view];
         [_scanRadarView startAnimatian];
-        [self.view bringSubviewToFront:_rotateScanBtn];
         [self.view bringSubviewToFront:_diffuseBtn];
+        [self.view bringSubviewToFront:_rotateScanBtn];
     } else {
         [_scanRadarView stopAnimation];
         [_scanRadarView dismiss];
