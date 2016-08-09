@@ -60,6 +60,7 @@
             [_scanRadarView stopAnimation];
             [_scanRadarView dismiss];
         }
+        
         [_diffuseRadarView showTargetView:self.view];
         [_diffuseRadarView startAnimatian];
         [self.view bringSubviewToFront:_rotateScanBtn];
